@@ -1,5 +1,3 @@
-
-
 # Data Of Plant
 shaghayegh = 1
 roz = 2
@@ -79,7 +77,7 @@ def PlantMode(plant,location,solidMoisture):
     else:
         print("The Number Is Not Vaild")
 
-
+#Min Method
 while True:
     userPlant = input("Please Select Your Plant : \n 1)Shaghayegh \n 2)Roz \n 3)Sefid \n")
     finaluserplant = FinalUserPlant(userPlant)
